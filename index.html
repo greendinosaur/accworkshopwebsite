@@ -1,0 +1,146 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop on Accessibility in SE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+</head>
+<body>
+    <style>
+        .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(11,11,11, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .custom-toggler.navbar-toggler {
+    border-color: rgb(11,11,11);
+    } 
+
+    .custom-font-color.nav-link{
+        color: #0B0B0B;
+    }
+
+    body {
+    margin: 0;
+    padding-top: 50px; /* Keeps content from hiding under the navbar */
+
+  
+}
+
+    </style>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-light " style="background-color: #F2AC07;">
+            <div class="container-fluid ">
+                <a class="navbar-brand custom-font-color" style="color: #0B0B0B;" href="#">A11Y-SE</a>
+                <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">                        
+                        <li class="nav-item">
+                            <a class="nav-link custom-font-color" style="color: #0B0B0B;" href="#about" >About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-font-color" style="color: #0B0B0B;" href="#cfp">Call for papers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-font-color" style="color: #0B0B0B;" href="#oc" >Organizers</a>
+                        </li>                        
+                    </ul>   
+                </div>
+            </div>
+        </nav>     
+    </header>    
+    <main>
+        <div class="jumbotron text-center" style="background-color: #F2AC07;">
+            <h1 class="display-2 custom-font-color">Accessibility for Software Engineering</h1>
+            <p class="lead custom-font-color">1st Workshop on Accessibility in Software Engineering</p>
+            <p class="custom-font-color">Co-located with ICSE 2026, Rio de Janeiro</p>                        
+        </div>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col">                  
+                </div>
+                <div class="col-8">
+                    <h2 id="about">About the workshop</h2> 
+                    <p>The 1st Workshop on Accessibility in Software Engineering aims to bring together researchers and practitioners to discuss the challenges and opportunities in integrating accessibility into software engineering practices. The workshop will provide a platform for sharing experiences, discussing research findings, and exploring new ideas in the field of accessibility in software development.</p>
+                    <p>Accessibility is a critical aspect of software engineering, ensuring that software products are usable by people with disabilities. Despite the growing awareness of accessibility issues, there is still a significant gap in the integration of accessibility practices in software development processes. This workshop aims to address this gap by fostering collaboration between researchers, practitioners, and educators in the field.</p>
+                    <p>The workshop will feature keynote speakers, paper presentations, and panel discussions. The workshop will provide a collaborative environment to share and discuss the latest research, and explore new ideas in accessibility for software engineering.</p>                    
+                    <h3>Workshop Goals</h3>
+                    <ul class="text-start">
+                        <li>To raise awareness of the importance of accessibility in software engineering</li>
+                        <li>To share recent research in accessibility</li>
+                        <li>To foster collaboration between researchers, practitioners, and educators</li>
+                        <li>To explore new ideas and solutions for improving accessibility in software engineering</li>
+                    </ul>
+                    <h3>Target Audience</h3>
+                    <p>The workshop is open to anyone interested in accessibility in software engineering, including researchers, practitioners, educators, and students. We particularly encourage participation from people with disabilities to share their experiences and perspectives on accessibility in software engineering.</p>
+                <h2>Types of Submissions</h2>
+                <p>We welcome the following types of submissions:</p>
+                <ul class="text-start">
+                    <li><span class="fw-bold">Research papers</span>&nbsp;addressing a topic related to accessibility and software engineering (up to 8 pages plus 2 pages references)</li>
+                    <li><span class="fw-bold">Experience reports</span>&nbsp;providing anecdotal evidence about an experience related to accessibility in software engineering and interpreting the experience with actionable insights, advice, and lessons learned. This experience can be in an industry or academic setting (up to 8 pages plus 2 pages references)</li>
+                    <li><span class="fw-bold">Education papers</span>&nbsp;relating to teaching accessibility in either an academic or an industry setting (up to 8 pages plus 2 pages references)</li>
+                    <li><span class="fw-bold">Position papers</span>&nbsp;providing new ideas, emerging results, or interesting directions for an accessibility related topic (up to 4 pages plus 1 pages references)</li>                    
+                    <li><span class="fw-bold">Tool papers</span>&nbsp;describing a tool designed to improve accessibility (up to 5 pages plus 1 page references)</li>
+                    <li><span class="fw-bold">Demonstrations of tools</span> enable a practical 15-minute demonstration of an accessibility related tool including those still under development. Please provide a short abstract explaining the tool. (2 page abstract including references).</li>
+                    <li><span class="fw-bold">Tutorials</span>o teach the community about an accessibility related topic in a session up to 30 minutes. Please provide a short abstract describing the topic, goal, and expected outcomes of the tutorial</li>
+                    <li><span class="fw-bold">Extended abstracts</span>&nbsp;includes shorter research, experience, education, position, and tool papers (up to 5 pages including references). Extended abstracts are free of APC charges</li>
+                </ul>
+                  <h2 id="cfp">Call for Papers</h2>
+                    <p>We seek papers covering a broad range of accessibility-related topics and encourage submissions from academics and industry practitioners on any aspects of accessibility within software engineering, including but not limited to:</p>
+                    <ul class="text-start">
+                        <li>AI-based tools to detect and fix accessibility problems in software engineering</li>
+                        <li>AI-based tools for translating regulations into practical coding tactics and code designs</li>
+                        <li>Instructional methods and tools that teach software engineering students about accessibility</li>
+                        <li>Open-Source tools for accessibility</li>
+                        <li>Accessibility pragmatics for working with particular Operating Systems, libraries, and tools.</li>
+                        <li>Mixed ability collaboration in software engineering</li>
+                        <li>Learn how to make (custom) software tools accessible</li>
+                        <li>Engineering cross-platform issues in accessibility</li>
+                        <li>Versioning issues with accessibility</li>
+                        <li>Accessible software in specific domains (CAD, digital effects, etc)</li>
+                        <li>Social model of disability in software tool design</li>
+                        <li>Engineering design/architecture issues' impact on accessibility (e.g., accessible starvation)</li>
+                        <li>Intersectionality in disabilities (e.g., deaf-blind, chronic illness)</li>
+                        <li>Supporting cognitive decline in software development</li>
+                        <li>Career trajectory and outcomes for software engineers with disabilities</li>
+                        <li>Policy work to support developers with disabilities (e.g., being on the WCAG board)</li>
+                        </ul>                    
+                    <h3>Important Dates</h3>
+                    <ul class="text-start">
+                        <li>Submission deadline: October 20, 2026</li>
+                        <li>Notification of acceptance: November 24, 2026</li>
+                        <li>Camera-ready version due: TBA</li>                        
+                    </ul>
+                    <h3>Submission Guidelines</h3>
+                    <ul>
+                        <li>Submissions should be formatted according to the ACM Conference Proceedings template.</li>
+                    <li>Papers should be submitted via the workshop's HotCRP submission system.</li>
+                    <li>Submissions must follow the latest <a href="https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/" target="_blank">IEEE Submission and Peer Review Policy</a> and <a href="https://www.acm.org/publications/policies/new-acm-policy-on-authorship" target="_blank">ACM Policy on Authorship </a></li>
+                    <li>All submissions will be peer-reviewed by at least two members of the program commitee. They will be evaluated on: (i) relevance to the workshop, and potential to stimulate interesting discussions, (ii) novelty, and (iii) presentation quality.</li>
+                    </ul>
+                    <p></p>
+                    <p>For more information about the workshop, please contact the organizers listed below</p>
+                    <h2 id="oc">Organizers</h3>
+                    <ul class="text-start">
+                        <li>Yoonha Cha, University of California, Irvine.</li>
+                        <li>Victoria Jackson, University of California, Irvine.</li>
+                        <li>Andrew Begel, Carnegie Mellon University.</li>
+                        <li>Andreas Stefik, University of Nevada, Las Vegas.</li>
+                        <li>Stephanie Ludi, University of North Texas.</li>
+                    </ul>
+                </div>
+
+                <div class="col">                  
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer"> <div class="container text-center">
+        <hr/>        
+            <span class="text-muted"><a href="#">This website</a> is marked <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="Creative Commons 1.0 Universal" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="No copyright" style="max-width: 1em;max-height:1em;margin-left: .2em;"></span>
+        
+      </div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
